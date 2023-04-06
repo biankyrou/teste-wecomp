@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <link rel="icon" href="%PUBLIC_URL%/favicon.ico" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="theme-color" content="#000000" />
+    <meta
+      name="description"
+      content="Web site created using create-react-app"
+    />
+    <link rel="apple-touch-icon" href="%PUBLIC_URL%/logo192.png" />
+    <!--
+      manifest.json provides metadata used when your web app is installed on a
+      user's mobile device or desktop. See https://developers.google.com/web/fundamentals/web-app-manifest/
+    -->
+    <link rel="manifest" href="%PUBLIC_URL%/manifest.json" />
+    <!--
+      Notice the use of %PUBLIC_URL% in the tags above.
+      It will be replaced with the URL of the `public` folder during the build.
+      Only files inside the `public` folder can be referenced from the HTML.
+
+      Unlike "/favicon.ico" or "favicon.ico", "%PUBLIC_URL%/favicon.ico" will
+      work correctly both with client-side routing and a non-root public URL.
+      Learn how to configure a non-root public URL by running `npm run build`.
+    -->
+
+    <link rel="stylesheet" type="text/css" href="App.css">
+    <title>React App</title>
+  </head>
+  <body>
+    <noscript>You need to enable JavaScript to run this app.</noscript>
+    <div id="root"></div>
+    <div className="envolucro">
+      <div>
+        <header id="header">
+          <nav className="nav_cabecalho">
+            <ul>
+              <li><a href="#header">Início</a></li>
+              <li><a href="#sobre">Sobre nós</a></li>
+              <li><a href="#cronograma">Cronograma</a></li>
+              <li><a href="#patrocinadores">Patrocinadores</a></li>
+            </ul>
+          </nav>
+          <div id="container-titulo">
+            <h1>Wecomp 2023</h1>
+            <h2>Semana acadêmica de computação</h2>
+          </div>
+        </header>
+      </div>
+
+      <div>
+        <section id="sobre">
+          <h3>Sobre a Wecomp</h3>
+          <p>A wecomp é feita pelo IFSP desde XXXX... </p>
+        </section>
+      </div>
+
+      <div>
+        <section id="cronograma">
+          <h3>Cronograma</h3>
+          <table id="table_cronograma">
+            <tr>
+              <th>informações de dias e horários</th>
+            </tr>
+          <tr>
+          <td>Mais infos</td>
+          </tr>
+        </table>
+        </section>
+      </div>
+
+      <div>
+        <section id="patrocinadores">
+          <h3>Patrocinadores</h3>
+        </section>
+      </div>
+
+      <div>
+          <footer id="footer">
+            <h6>Footer: Informações adicionais e membros</h6>
+          </footer>
+      </div>
+    </div>
+  </body>
+</html>

@@ -1,0 +1,95 @@
+.App {
+  text-align: center;
+}
+
+html{
+  scroll-behavior: smooth;
+}
+
+#table_cronograma{
+  border: 1px solid black;
+}
+
+th, td{
+  border: 1px solid black;
+}
+
+ul{
+  background-color: rgb(253, 253, 253);
+  position: fixed;
+  left: 1500px;
+  list-style-type: none; 
+  margin: 0;
+  padding: 0;
+}
+
+li {
+  display: inline-block; 
+  margin-right: 10px;
+}
+
+
+
+#header{
+  background-color: rgb(171, 194, 171);
+  width: 100%;
+  height: 90vh;
+  overflow-y: scroll; 
+  padding: 20px;
+}
+
+#sobre{
+  background-color: rgb(98, 91, 150);
+  width: 100%;
+  height: 90vh;
+  overflow-y: scroll; 
+  padding: 20px;
+}
+
+
+#cronograma{
+  background-color: rgb(209, 131, 111);
+  width: 100%;
+  height: 90vh;
+  overflow-y: scroll; 
+  padding: 20px;
+}
+
+#patrocinadores{
+  background-color: rgb(84, 66, 109);
+  width: 100%;
+  height: 90vh;
+  overflow-y: scroll; 
+  padding: 20px;
+}
+
+#footer{
+    background-color: rgb(199, 209, 111);
+    width: 100%;
+    height: 90vh;
+    overflow-y: scroll; 
+    padding: 20px;
+}
+
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
